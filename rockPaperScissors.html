@@ -5,25 +5,25 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rock - Paper - Scissors</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
     <div class="main-container">
-        <h2>Computer Choice: <span id="computer-choice"></span></h2>
-        <h2>User Choice: <span id="user-choice"></span></h2>
+        <h2 class="computer-choice-container">Computer Choice: <span id="computer-choice"></span></h2>
+        <h2 class="user-choice-container">User Choice: <span id="user-choice"></span></h2>
 
         <div class="button-container">
-            <button id="Rock">Rock</button>
-            <button id="Paper">Paper</button>
-            <button id="Scissors">Scissors</button>
-            <button id="Lizzard">Lizzard</button>
-            <button id="Spock">Spock</button>
+            <button id="Rock"><img src="./assets/icons/rock.svg" alt="Rock" id="Rock">Rock</button>
+            <button id="Paper"><img src="./assets/icons/paper.svg" alt="Paper" id="Paper">Paper</button>
+            <button id="Scissors"><img src="./assets/icons/scissors.svg" alt="Scissors" id="Scissors">Scissors</button>
+            <button id="Lizzard"><img src="./assets/icons/lizzard.svg" alt="Lizzard" id="Lizzard">Lizzard</button>
+            <button id="Spock"><img src="./assets/icons/spock.svg" alt="Spock" id="Spock">Spock</button>
         </div>
 
         <h2 class="final-result">Result: <span id="result"></span></h2>
     </div>
 
-    Icons by:
-    https://game-icons.net/
+    <h2 id="icons-by">Icons by: <a href="https://game-icons.net/">game-icons.net</a></h2>
 
     <script src="script/app.js"></script>
 </body>
