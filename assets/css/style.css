@@ -67,3 +67,8 @@ button img {
 #icons-by {
 font-size: var(--sm);
 }
+
+.current-streak-container{
+    display: inline-block;
+    margin: 40px;
+}
